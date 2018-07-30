@@ -8,6 +8,8 @@ that meet the filter settings.
 
 One can filter the received data by ip + netmask and/or by a community string.
 
+Forked and modified from https://github.com/ItsEcholot/node-red-contrib-snmp-trap-listener to pass incoming community through payload.
+
 Getting Started
 ---------------
 Navigate to the node-red installation directory and add the package via NPM.
