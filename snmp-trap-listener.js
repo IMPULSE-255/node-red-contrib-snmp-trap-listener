@@ -71,6 +71,7 @@ module.exports = (RED, debugSettings) => {
             if (payload.length > 0)
                 node.send({
                     payload,
+                    community: msg.community.toString(),
                     enterprise: serializedMsg.enterprise,
                     agent_addr: serializedMsg.agent_addr,
                     generic_trap: serializedMsg.generic_trap,
